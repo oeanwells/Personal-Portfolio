@@ -1,0 +1,251 @@
+/*CSS for when screen is bigger than 400px*/
+@media (min-width: 400px) {
+  /*Navbar Settings*/
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #d1a981
+  }
+  #img-logo {
+    height: 10vh;
+  }
+  #navlist li{
+    padding: 0 10px 0 20px; 
+    font-size: 3.5vw;
+  }
+  /* Home Section settings*/
+  #home {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #home-text {
+    margin: 0 5vw;
+    flex-grow: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 100vh;
+    width: 50vw; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #home-text h1 {
+    font-size: 5vw;
+  }
+  #home-text h2 {
+    font-size: 2.5vw;
+  }
+  #profile {
+    width: 30vw;
+    border-radius: 50%;
+  }
+  #profile-div {
+    width: 50vw;
+  }
+
+/* About section Settings*/
+#about {
+  padding: 7.5vh 0 ;
+}
+
+/* Project Section Settings*/
+#project {
+  padding: 7.5vh 0;
+}
+.projects-grid {
+  display: grid; 
+  grid-template-columns: 30vw 30vw;
+  grid-gap: 100px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#projects img {
+  width: 30vw;
+  height: ;
+  padding-bottom: 40px;
+  
+}
+.project-tile {
+  background: rgba(210, 129, 129, 0.75);
+  width: 30vw;
+  box-shadow: 0 2px 15px black;
+}
+
+
+}
+/* CSS When screen is smaller than 400px*/
+@media (max-width: 400px) {
+
+/*body {
+  color: white;
+  font-family: Nunito;
+margin: 0;
+}*/
+/* Navbar Settings*/
+#img-logo {
+    
+    
+    padding-left: 40vw;
+    padding-right: 40vw;
+    padding-top: 5vh;
+    margin: 0 auto;
+  }
+#navlist li {
+padding: 0 10px 0 10px; 
+margin:  0 auto;
+}
+nav {
+  padding-left: auto;
+  padding-right: auto;
+  margin: 0 auto;
+}
+
+/* Home Settings*/
+#home {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile {
+  width: 50%;
+  border-radius: 50%;
+}
+
+/*Project Section*/
+.projects-grid {
+  display: grid; 
+  grid-auto-columns: auto;
+  grid-gap: 50px;
+  margin: 0 auto 0 auto;
+  margin-bottom: 10vh;
+  
+}
+#projects img {
+  width: 70vw;
+  height: ;
+  padding-bottom: 40px;
+  
+}
+.project-tile {
+  background: rgba(210, 129, 129, 0.75);
+  width: 70vw;
+  box-shadow: 0 2px 15px black;
+}
+
+}
+
+/* CSS Regardless Screen Size*/
+/*Body Settings */
+body  {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-family: Nunito;
+  }
+
+/*Navbar settings*/
+ 
+#navbar {
+  background-color: #d1a981;
+}
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  list-style: none;
+}
+ul {
+  display: flex;
+}
+#img-logo {
+    max-height: 10vw;
+    /*
+    padding-left: 40vw;
+    padding-right: 40vw;
+    */
+  }
+
+/*Home settings*/
+#home {
+  background-color: rgb(210, 129, 129);
+  text-align: center;
+  }
+
+
+/* About Me settings */
+#about {
+  background-color: #81d1d1;
+  text-align: center;
+}
+#about a {
+  text-decoration: none;
+  color: black;
+}
+#about .center {
+  list-style: ;
+  list-style-position: inside;
+  text-align: center;
+}
+
+/*Projects Settings*/
+#projects {
+  background-color: #a181d1;
+  height: 100%;
+  display: grid;
+  text-align: center;
+  padding: 7.5vh 0;
+}
+#projects-header {
+  padding-bottom: 10px;
+}
+
+
+.project-image {
+  
+}
+.project-title {
+
+}
+.project-tile a {
+  text-decoration: none;
+  color: white;
+}
+#github {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+#profile-link {
+  text-decoration: none;
+  color: black;
+}
+
+/*Contact Settings*/
+#contact {
+  background-color: rgb(210, 129, 129);
+  text-align: center;
+}
+#contact a {
+  color: white;
+  padding: 0 10px;
+}
+#footer {
+  background-color: #d1a981;
+  text-align: center;
+}
+
+}
