@@ -12,10 +12,12 @@
     flex-grow: 1;
     justify-content: space-between;
     height: 10vh;
-    background-color: #d1a981
   }
   #img-logo {
     height: 10vh;
+  }
+  #navlist {
+    padding: 0 0 10px 0;
   }
   #navlist li{
     padding: 0 10px 0 20px; 
@@ -52,6 +54,9 @@
   #profile {
     width: 30vw;
     border-radius: 50%;
+    border: 2px solid #F1E1DF;
+    /*F1E1DF
+    C98C84*/
   }
   #profile-div {
     width: 50vw;
@@ -74,21 +79,20 @@
 }
 .projects-grid {
   display: grid; 
-  grid-template-columns: 30vw 30vw;
+  grid-template-columns: 20vw 20vw 20vw;
   grid-gap: 100px;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
 
 #projects img {
-  width: 30vw;
-  height: ;
+  width: 20vw;
   padding-bottom: 40px;
   
 }
 .project-tile {
   background: rgba(210, 129, 129, 0.75);
-  width: 30vw;
+  width: 20vw;
   box-shadow: 0 2px 15px black;
 }
 
@@ -103,13 +107,16 @@
 margin: 0;
 }*/
 /* Navbar Settings*/
+#img-logo-container {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 #img-logo {
-    
-    
-    padding-left: 40vw;
-    padding-right: 40vw;
-    padding-top: 5vh;
-    margin: 0 auto;
+  padding-top: 20px;
   }
 #navlist li {
 padding: 0 10px 0 10px; 
@@ -130,6 +137,7 @@ nav {
 #profile {
   width: 50%;
   border-radius: 50%;
+  padding-bottom: 20px;
 }
 
 /*Project Section*/
@@ -143,7 +151,6 @@ nav {
 }
 #projects img {
   width: 70vw;
-  height: ;
   padding-bottom: 40px;
   
 }
@@ -162,18 +169,22 @@ body  {
     flex-direction: column;
     margin: 0;
     width: 100%;
-    color: white;
-    font-family: Nunito;
+    color: #F1E1DF;
+    font-family: Noto Sans JP;
   }
 
 /*Navbar settings*/
- 
+ header {
+   border-bottom-color: #F1E1DF;
+   border-bottom-width: 2px;
+   border-bottom-style: solid;
+ }
 #navbar {
-  background-color: #d1a981;
+  background-color: #C98C84;
 }
 #navbar a {
   text-decoration: none;
-  color: white;
+  color: #F1E1DF;
 }
 nav li {
   list-style: none;
@@ -196,14 +207,16 @@ ul {
 
 /*Home settings*/
 #home {
-  background-color: rgb(210, 129, 129);
+  background-color:  #C98C84;
   text-align: center;
+  color: #F1E1DF;
+  C98C84
   }
 
 
 /* About Me settings */
 #about {
-  background-color: #81d1d1;
+ /* background-color: #81d1d1;*/
   text-align: center;
 }
 #about a {
@@ -229,11 +242,12 @@ ul {
 
 /*Projects Settings*/
 #projects {
-  background-color: #a181d1;
+  background-color: #C98C84;
   height: 100%;
   display: grid;
   text-align: center;
-  padding: 7.5vh 0;
+  padding: 0 0;
+  border-top: 2px solid #F1E1DF;
 }
 #projects-header {
   padding-bottom: 10px;
@@ -257,15 +271,17 @@ ul {
 
 /*Contact Settings*/
 #contact {
-  background-color: rgb(210, 129, 129);
+  background-color: #C98C84;
   text-align: center;
-  height: 30vh;
+  height: auto;
+  border-top: 2px solid #F1E1DF;
+  border-bottom: 2px solid #F1E1DF;
 }
 #contact div {
   margin: auto auto;
 }
 #contact a {
-  color: white;
+  color: #F1E1DF;
   padding: 0 20px;
 }
 
@@ -275,6 +291,9 @@ ul {
 }
 #contact i:hover {
 font-size: 7vw;
+}
+#contact h1 {
+  padding-top: 20px;
 }
 
 /*Footer Settings*/
