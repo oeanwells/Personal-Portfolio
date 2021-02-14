@@ -1,5 +1,5 @@
 /*CSS for when screen is bigger than 400px*/
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   /*Navbar Settings*/
   #navbar {
     display: flex;
@@ -11,17 +11,18 @@
     right: 0;
     flex-grow: 1;
     justify-content: space-between;
-    height: 10vh;
+    height: auto;
   }
   #img-logo {
     height: 10vh;
   }
   #navlist {
     padding: 0 0 10px 0;
+    
   }
   #navlist li{
     padding: 0 10px 0 20px; 
-    font-size: 3.5vw;
+    font-size: 2rem;
   }
 
 
@@ -101,7 +102,7 @@
 
 }
 /* CSS When screen is smaller than 400px*/
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
 /*body {
   color: white;
@@ -120,15 +121,19 @@ margin: 0;
 #img-logo {
   padding-top: 20px;
   }
+#navlist {
+  padding: 0 40px;
+}
+
 #navlist li {
 padding: 0 10px 0 10px; 
 margin:  0 auto;
 }
-nav {
+/* nav {
   padding-left: auto;
   padding-right: auto;
   margin: 0 auto;
-}
+} */
 
 /* Home Settings*/
 #home {
