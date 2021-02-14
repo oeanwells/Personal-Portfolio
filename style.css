@@ -81,19 +81,21 @@
   display: grid; 
   grid-template-columns: 20vw 20vw 20vw;
   grid-gap: 100px;
-  margin: 0 auto;
+  margin: 10px auto auto auto;
   margin-bottom: 6rem;
 }
 
 #projects img {
   width: 20vw;
   padding-bottom: 40px;
-  
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .project-tile {
   background: rgba(210, 129, 129, 0.75);
   width: 20vw;
   box-shadow: 0 2px 15px black;
+  border-radius: 10px;
 }
 
 
@@ -158,6 +160,7 @@ nav {
   background: rgba(210, 129, 129, 0.75);
   width: 70vw;
   box-shadow: 0 2px 15px black;
+  border-radius: 10px;
 }
 
 }
@@ -242,9 +245,9 @@ ul {
 
 /*Projects Settings*/
 #projects {
+  display: grid;
   background-color: #C98C84;
   height: 100%;
-  display: grid;
   text-align: center;
   padding: 0 0;
   border-top: 2px solid #F1E1DF;
@@ -253,9 +256,15 @@ ul {
   padding-bottom: 10px;
 }
 
+/* .projects-grid {
+  display: grid;
+
+} */
+
 .project-tile a {
   text-decoration: none;
   color: white;
+  
 }
 #github {
   padding-bottom: 20px;
