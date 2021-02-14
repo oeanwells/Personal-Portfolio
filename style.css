@@ -74,9 +74,9 @@
 }
 
 /* Project Section Settings*/
-#project {
+/* #project {
   padding: 7.5vh 0;
-}
+} */
 .projects-grid {
   display: grid; 
   grid-template-columns: 20vw 20vw 20vw;
@@ -88,8 +88,8 @@
 #projects img {
   width: 20vw;
   padding-bottom: 40px;
-  border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .project-tile {
   background: rgba(210, 129, 129, 0.75);
@@ -137,9 +137,10 @@ nav {
 }
 
 #profile {
-  width: 50%;
+  width: 50vw;
   border-radius: 50%;
-  padding-bottom: 20px;
+  border: 2px solid #F1E1DF;
+  margin-bottom: 20px;
 }
 
 /*Project Section*/
@@ -154,7 +155,8 @@ nav {
 #projects img {
   width: 70vw;
   padding-bottom: 40px;
-  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .project-tile {
   background: rgba(210, 129, 129, 0.75);
